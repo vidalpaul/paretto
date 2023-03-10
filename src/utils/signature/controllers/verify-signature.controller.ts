@@ -21,7 +21,7 @@ export class VerifySignatureController {
   @ApiTags('utils', 'signature', 'verify-signature')
   @ApiOperation({ summary: 'Verify signature' })
   @ApiOkResponse({ description: 'Signature is valid' })
-  @Get()
+  @Get('utils/signature/verify')
   async verifySignature(
     @Body() verifySignatureRequest: IVerifySignature,
   ): Promise<VerifySignatureViewModel> {

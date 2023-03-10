@@ -20,7 +20,7 @@ export class ValidateAddressController {
   @ApiTags('utils')
   @ApiOperation({ summary: 'Get address validity path' })
   @ApiOkResponse({ description: 'A Polkadot address validator' })
-  @Get('/utils/validate-address/:address')
+  @Get('/utils/address/validate/:address')
   async isValidAddress(
     @Param('address') address: string,
   ): Promise<ValidateAddressViewModel> {
