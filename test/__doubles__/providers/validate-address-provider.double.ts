@@ -1,4 +1,4 @@
-import { ValidateAddressPort } from 'src/utils/providers/ports/validate-address.port';
+import { ValidateAddressPort } from 'src/utils/address/providers/ports/validate-address.port';
 
 export class ValidateAddressProviderDouble implements ValidateAddressPort {
   async isValidAddress(address: string): Promise<boolean> {

@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 
-import { ValidateAddressProvider } from 'src/utils/providers/validate-address.provider';
+import { ValidateAddressProvider } from 'src/utils/address/providers/validate-address.provider';
 
 describe('ValidateAddressProvider', () => {
   let provider: ValidateAddressProvider;

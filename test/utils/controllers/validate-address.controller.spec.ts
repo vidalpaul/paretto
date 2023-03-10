@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 
-import { ValidateAddressController } from 'src/utils/controllers/validate-address.controller';
-import { ValidateAddressUsecase } from 'src/utils/services/usecases/validate-address.usecase';
+import { ValidateAddressController } from 'src/utils/address/controllers/validate-address.controller';
+import { ValidateAddressUsecase } from 'src/utils/address/services/usecases/validate-address.usecase';
 import { ValidateAddressServiceDouble } from 'test/__doubles__/services/validate-address.service.double';
 
 describe('ValidateAddressController', () => {

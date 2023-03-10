@@ -1,6 +1,6 @@
-import { ValidateAddressViewModel } from 'src/utils/controllers/view-models/validate-address.view-model';
-import { IValidateAddress } from 'src/utils/interfaces/validate-address.interface';
-import { ValidateAddressUsecase } from 'src/utils/services/usecases/validate-address.usecase';
+import { ValidateAddressViewModel } from 'src/utils/address/controllers/view-models/validate-address.view-model';
+import { IValidateAddress } from 'src/utils/address/interfaces/validate-address.interface';
+import { ValidateAddressUsecase } from 'src/utils/address/services/usecases/validate-address.usecase';
 
 export class ValidateAddressServiceDouble implements ValidateAddressUsecase {
   async isValidAddress(

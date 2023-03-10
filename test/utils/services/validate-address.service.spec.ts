@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 
-import { ValidateAddressService } from 'src/utils/services/validate-address.service';
-import { ValidateAddressPort } from 'src/utils/providers/ports/validate-address.port';
+import { ValidateAddressService } from 'src/utils/address/services/validate-address.service';
+import { ValidateAddressPort } from 'src/utils/address/providers/ports/validate-address.port';
 import { ValidateAddressProviderDouble } from 'test/__doubles__/providers/validate-address-provider.double';
 
 describe('ValidateAddressService', () => {
