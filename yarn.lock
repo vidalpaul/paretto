@@ -1460,6 +1460,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/big.js@npm:^6.1.6":
+  version: 6.1.6
+  resolution: "@types/big.js@npm:6.1.6"
+  checksum: 290936fc4e9ebd9883ead8e8278126f43783b3e57bf7736b12ce6d922c62515a83b8c62cd3ef557a043508109d403cb0bd89c7556b221c2c1057fd3a1d03e683
+  languageName: node
+  linkType: hard
+
 "@types/bn.js@npm:^5.1.1":
   version: 5.1.1
   resolution: "@types/bn.js@npm:5.1.1"
@@ -2357,6 +2364,13 @@ __metadata:
   version: 1.5.1
   resolution: "base64-js@npm:1.5.1"
   checksum: 669632eb3745404c2f822a18fc3a0122d2f9a7a13f7fb8b5823ee19d1d2ff9ee5b52c53367176ea4ad093c332fd5ab4bd0ebae5a8e27917a4105a4cfc86b1005
+  languageName: node
+  linkType: hard
+
+"big.js@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "big.js@npm:6.2.1"
+  checksum: 0b234a2fd56c52bed2798ed2020bcab6fef5e9523b99a05406ad071d1aed6ee97ada9fb8de9576092da74c68825c276e19015743b8d1baea269b60a5c666b0cd
   languageName: node
   linkType: hard
 
@@ -5725,12 +5739,14 @@ __metadata:
     "@nestjs/testing": ^9.0.0
     "@polkadot/keyring": ^11.0.1
     "@polkadot/util": ^11.0.1
+    "@types/big.js": ^6.1.6
     "@types/express": ^4.17.13
     "@types/jest": 29.2.4
     "@types/node": 18.11.18
     "@types/supertest": ^2.0.11
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
+    big.js: ^6.2.1
     eslint: ^8.0.1
     eslint-config-prettier: ^8.3.0
     eslint-plugin-prettier: ^4.0.0

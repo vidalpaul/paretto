@@ -27,6 +27,8 @@
     "@nestjs/swagger": "^6.2.1",
     "@polkadot/keyring": "^11.0.1",
     "@polkadot/util": "^11.0.1",
+    "@types/big.js": "^6.1.6",
+    "big.js": "^6.2.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
     "snakecase-keys": "^5.4.5"
