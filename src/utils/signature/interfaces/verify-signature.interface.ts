@@ -1,5 +1,5 @@
 export interface IVerifySignature {
   signedMessage: string;
-  signature: string;
+  signature: string | Uint8Array;
   address: string;
 }

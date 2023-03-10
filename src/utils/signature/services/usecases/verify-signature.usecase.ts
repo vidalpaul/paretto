@@ -1,6 +1,7 @@
+import { VerifySignatureViewModel } from '../../controllers/view-models/verify-signature.view-model';
 import { IVerifySignature } from '../../interfaces/verify-signature.interface';
 
-export abstract class VerifySignaturePort {
+export abstract class VerifySignatureUsecase {
   /**
    * Verifies if a signed message was signed by an address
    * @param verifySignatureRequest
@@ -9,5 +10,5 @@ export abstract class VerifySignaturePort {
    */
   abstract verifySignature(
     verifySignatureRequest: IVerifySignature,
-  ): Promise<boolean>;
+  ): Promise<VerifySignatureViewModel>;
 }
