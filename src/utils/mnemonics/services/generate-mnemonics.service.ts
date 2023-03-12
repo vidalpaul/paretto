@@ -2,13 +2,11 @@ import { Injectable } from '@nestjs/common';
 
 import { GenerateMnemonicsViewModel } from '../controllers/view-models/generate-mnemonics.view-model';
 import { GenerateMnemonicsUsecase } from './usecases/generate-mnemonics.usecase';
-import { GenerateMnemonicsPorts } from '../providers/ports/generate-mnemonics.port';
+import { GenerateMnemonicsPort } from '../providers/ports/generate-mnemonics.port';
 
 @Injectable()
 export class GenerateMnemonicsService implements GenerateMnemonicsUsecase {
-  constructor(
-    private readonly generateMnemonicsPorts: GenerateMnemonicsPorts,
-  ) {}
+  constructor(private readonly generateMnemonicsPorts: GenerateMnemonicsPort) {}
   /**
    * Generate a mnemonic phrase
    * @returns {Promise<GenerateMnemonicsViewModel>}
